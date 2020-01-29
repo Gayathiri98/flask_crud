@@ -29,7 +29,7 @@ def index():
     cur.execute("SELECT * FROM book_info")
     data = cur.fetchall()
 
-    return render_template('index.html', data=data)
+    return render_template('index.html', data=data
 
 
 # Insert new entry in Database
